@@ -32,7 +32,7 @@ namespace n0tFlix.Subtitles.Subscene
 {
     public class SubsceneDownloader : ISubtitleProvider
     {
-        private const string Domain = "https://subscene.com";
+        private const string Domain = "https://subscene.icu";
         private const string SubtitleUrl = "/subtitles/{0}/{1}";
         private const string SearchUrl = "/subtitles/searchbytitle?query={0}&l=";
         private const string XmlTag = "<?xml version=\"1.0\" ?>";
